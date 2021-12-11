@@ -1,0 +1,46 @@
+body {
+    font-family: var(--ff);
+    color: white;
+}
+
+.card__section__title {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.card__section__title:hover {
+    color: var(--cyan);
+    cursor: pointer;
+}
+
+.card__section__content {
+    color: var(--soft-blue);
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.card__section__price {
+    color: var(--cyan);
+    font-size: .9rem;
+}
+
+.card__section__time-left {
+    color: var(--soft-blue);
+    font-size: .9rem;
+}
+
+.card__footer__text {
+    color: var(--soft-blue);
+    font-size: .9rem;
+    font-weight: 300;
+}
+
+.accent {
+    color: white;
+}
+
+.accent:hover {
+    color:var(--cyan);
+    cursor: pointer;
+}
